@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		F88310E127511763002D07A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88310DF27511763002D07A6 /* Main.storyboard */; };
 		F88310E327511764002D07A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88310E227511764002D07A6 /* Assets.xcassets */; };
 		F88310E627511764002D07A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88310E427511764002D07A6 /* LaunchScreen.storyboard */; };
+		F88310EF275117BC002D07A6 /* Rotations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88310EE275117BC002D07A6 /* Rotations.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F88310E227511764002D07A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F88310E527511764002D07A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F88310E727511764002D07A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88310EE275117BC002D07A6 /* Rotations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Rotations.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88310EF275117BC002D07A6 /* Rotations.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				F88310D827511763002D07A6 /* SampleApp */,
 				F88310D727511763002D07A6 /* Products */,
+				F88310ED2751179E002D07A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				F88310E727511764002D07A6 /* Info.plist */,
 			);
 			path = SampleApp;
+			sourceTree = "<group>";
+		};
+		F88310ED2751179E002D07A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F88310EE275117BC002D07A6 /* Rotations.xcframework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
